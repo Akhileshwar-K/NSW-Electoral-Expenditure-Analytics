@@ -88,6 +88,9 @@ Raw disclosure records were extracted from party expenditure reports and transfo
 ### Electoral Spending Over Time
 
 ![Political Advertisement Spending Over Time](visualisations/political_advertisement_spending_overtime.jpeg)
+### Party Spending Trends
+
+![Party Spending Trends](visualisations/party_spending_over_time.png)
 
 ### Age Distribution of Targeted Audiences
 
