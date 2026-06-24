@@ -13,7 +13,7 @@ The project aims to improve the transparency and interpretability of electoral e
 - Examine expenditure distribution across categories
 - Identify anomalies and the impact of high-value transactions
 - Develop an interactive Power BI dashboard for stakeholder exploration
-- Forecast future expenditure trends using historical data
+- Explore opportunities for predictive modelling of expenditure trends
 
 ## Technologies Used
 
@@ -43,17 +43,76 @@ The project aims to improve the transparency and interpretability of electoral e
 4. Aggregate expenditure across parties, categories, and time periods.
 5. Perform exploratory data analysis to identify trends and patterns.
 6. Develop visualisations and an interactive dashboard.
-7. Implement predictive modelling to forecast expenditure trends.
+7. Investigate predictive modelling approaches for forecasting expenditure trends.
 
-## Preliminary Findings
+## Dataset Overview
 
-Current analysis has identified several key observations:
+The analysis uses a cleaned expenditure dataset constructed from publicly available NSW Electoral Commission disclosure records.
 
-- Electoral spending patterns differ significantly across parties.
-- Expenditure data is highly skewed due to a small number of large transactions.
-- Spending allocation varies substantially across expenditure categories.
-- Campaign spending increases as election periods approach.
-- Mean-based comparisons may not accurately represent typical spending behaviour.
+The dataset includes expenditure transactions from major political parties and contains the following attributes:
+
+| Variable | Description |
+|-----------|-------------|
+| Party | Political party responsible for expenditure |
+| Date | Transaction date |
+| Supplier | Organisation receiving payment |
+| Description | Expenditure description |
+| Amount | Transaction value (AUD) |
+| Category | Categorised expenditure type |
+
+The cleaned dataset was created by extracting, standardising, and merging disclosure records from multiple source documents.
+
+## Repository Contents
+
+- `data/` – cleaned expenditure dataset used for analysis
+- `notebooks/` – Python notebook containing data cleaning and exploratory analysis
+- `reports/` – project proposal and supporting documentation
+- `visualisations/` – charts generated during analysis
+
+## Data Source
+
+The analysis is based on publicly available electoral expenditure disclosures obtained from the NSW Electoral Commission.
+
+Raw disclosure records were extracted from party expenditure reports and transformed into a structured analytical dataset suitable for statistical analysis and visualisation.
+
+## Key Findings
+
+- Liberal Party recorded the highest expenditure among the parties analysed.
+- Electoral expenditure exhibited substantial variation across political parties and expenditure categories.
+- Spending patterns intensified during election-related periods.
+- A small number of high-value transactions contributed significantly to overall expenditure totals.
+- Demographic targeting patterns differed across parties when analysing age and gender distributions.
+
+## Sample Visualisations
+
+### Electoral Spending Over Time
+
+![Political Advertisement Spending Over Time](visualisations/Political advertising expenditure over time.jpeg)
+
+### Age Distribution of Targeted Audiences
+
+![Age Distribution](visualisations/Stacked bar chart of targeted audience ages.jpeg)
+
+### Gender Distribution of Targeted Audiences
+
+![Gender Distribution](visualisations/Gender distribution of targeted audicnce by party.jpeg)
+
+### Trade-off Between Number of Advertisements and Cost
+
+![Trade-off Analysis](visualisations/Scatterplot between average spend on ad and number of ads.jpeg)
+
+## Skills Demonstrated
+
+- Data Cleaning and Preprocessing
+- Exploratory Data Analysis (EDA)
+- Data Visualisation
+- Statistical Analysis
+- Time-Series Analysis
+- Comparative Analysis
+- Python Programming
+- Stakeholder-Oriented Reporting
+- Power BI Dashboard Development
+
 
 ## Project Status
 
@@ -67,5 +126,8 @@ Current focus areas:
 ## Author
 
 Akhileshwar Reddy Kolanupaka
+
+Master of Data Science  
+The University of Queensland
 
 
