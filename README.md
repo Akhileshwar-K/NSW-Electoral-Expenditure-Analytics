@@ -87,19 +87,19 @@ Raw disclosure records were extracted from party expenditure reports and transfo
 
 ### Electoral Spending Over Time
 
-![Political Advertisement Spending Over Time](visualisations/Political advertising expenditure over time.jpeg)
+![Political Advertisement Spending Over Time](visualisations/political_advertisement_spending_overtime.jpeg)
 
 ### Age Distribution of Targeted Audiences
 
-![Age Distribution](visualisations/Stacked bar chart of targeted audience ages.jpeg)
+![Age Distribution](visualisations/age_distribution.jpeg)
 
 ### Gender Distribution of Targeted Audiences
 
-![Gender Distribution](visualisations/Gender distribution of targeted audicnce by party.jpeg)
+![Gender Distribution](visualisations/gender_distribution.jpeg)
 
 ### Trade-off Between Number of Advertisements and Cost
 
-![Trade-off Analysis](visualisations/Scatterplot between average spend on ad and number of ads.jpeg)
+![Trade-off Analysis](visualisations/ads_vs_cost.jpeg)
 
 ## Skills Demonstrated
 
