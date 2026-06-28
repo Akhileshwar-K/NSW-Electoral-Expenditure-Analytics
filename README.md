@@ -96,9 +96,6 @@ Raw disclosure records were extracted from party expenditure reports and transfo
 
 ![Age Distribution](visualisations/age_distribution.jpeg)
 
-### Gender Distribution of Targeted Audiences
-
-![Gender Distribution](visualisations/gender_distribution.jpeg)
 
 ### Trade-off Between Number of Advertisements and Cost
 
